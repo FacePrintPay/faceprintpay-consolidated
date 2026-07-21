@@ -1,4 +1,1 @@
-{
-  "cleanUrls": true,
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
-}
+{"builds":[{"src":"**/*","use":"@vercel/static"}]}
